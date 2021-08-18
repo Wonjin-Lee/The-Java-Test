@@ -8,7 +8,7 @@ class StudyTest {
 
     @Test
     void create() {
-        Study study = new Study();
+        Study study = new Study(2);
         assertNotNull(study);
         System.out.println("create");
     }
